@@ -1,0 +1,11 @@
+a = input("Enter 1: ")
+b = input("Enter 2: ")
+count = 0
+if len(a) < len(b):
+    x = len(a)
+else:
+    x = len(b)
+for i in range(0,x):
+    if a[i].lower() == b[i].lower():
+        count = count + 1
+print(count)
